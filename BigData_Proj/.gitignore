@@ -1,5 +1,0 @@
-﻿*.mp4
-data/*.csv
-__pycache__/
-.env
-*.pyc
