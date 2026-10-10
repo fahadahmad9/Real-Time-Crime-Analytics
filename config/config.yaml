@@ -1,0 +1,29 @@
+data:
+  arrests: /app/data/arrests.csv
+  crime: /app/data/crimes.csv
+  police_stations: /app/data/police_stations.csv
+  sex_offenders: /app/data/sex_offenders.csv
+  violence: /app/data/violence.csv
+kafka:
+  broker: kafka:9092
+  producer_rate: 1
+  topic: crime_events
+mongodb:
+  alerts_collection: alert_logs
+  database: crime_analytics
+  host: mongodb
+  port: 27017
+postgresql:
+  database: crime_analytics
+  host: postgres
+  password: admin123
+  port: 5432
+  user: admin
+spark:
+  app_name: CrimeAnalytics
+  kmeans_k: 10
+  master: local[*]
+storm:
+  anomaly_threshold: 10
+  slide_interval: 60
+  window_size: 300

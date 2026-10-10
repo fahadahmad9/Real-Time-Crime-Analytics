@@ -1,0 +1,8 @@
+﻿*.mp4
+data/*.csv
+__pycache__/
+.env
+*.pyc
+
+config/config.yaml.bak
+config/config_local.yaml
